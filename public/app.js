@@ -34,7 +34,7 @@ getData: function() {
 }
 // $(document).ready(function() {
 // $.ajax({
-//       url: 'https://api.instagram.com/v1/tags/' + obj[0].object_id +'/media/recent?client_id=' + '4723704c5af04fcbbe835ae0a27a29bb',
+//       url: 'https://api.instagram.com/v1/tags/' + obj[0].object_id +'/media/recent?client_id=' + 'key',
 //       crossdomain: true,
 //       dataType: 'jsonp'
 //     }).done   

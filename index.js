@@ -36,7 +36,7 @@ app.post('/callback', function(req, res){
   var data = req.body;
   // data.forEach(function(tag){
     io.sockets.emit('instagram', data);
-  //   var url = 'https://api.instagram.com/v1/tags/' + tag.object_id +'media/recent?client_id=' + '4723704c5af04fcbbe835ae0a27a29bb';
+  //   var url = 'https://api.instagram.com/v1/tags/' + tag.object_id +'media/recent?client_id=' + 'key';
   //   sendMessage(url);
   // });
   // res.end();
